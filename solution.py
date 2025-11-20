@@ -132,11 +132,9 @@ def handle_paddle_movement(keys, left_paddle, right_paddle):
 
 run = True
 clock = pygame.time.Clock()
-
 left_paddle = Paddle(10, HEIGHT//2 - PADDLE_HEIGHT // 2, PADDLE_WIDTH, PADDLE_HEIGHT)
 right_paddle = Paddle(WIDTH - 10 - PADDLE_WIDTH, HEIGHT // 2 - PADDLE_HEIGHT//2, PADDLE_WIDTH, PADDLE_HEIGHT)
 ball = Ball(WIDTH // 2, HEIGHT // 2, BALL_RADIUS)
-
 left_score = 0
 right_score = 0
 
