@@ -124,6 +124,7 @@ while run:
     handle_paddle_movement(keys, left_paddle, right_paddle)
 
     ball.move()
+    
     if ball.y + ball.radius >= HEIGHT:
         ball.y_vel *= -1
     elif ball.y - ball.radius <= 0:
@@ -179,3 +180,4 @@ while run:
         right_score = 0
 
 pygame.quit()
+
